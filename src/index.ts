@@ -30,7 +30,7 @@ function isValidName(name: string): boolean {
 // Anticheat functions
 function isValidScore(score: number): boolean {
   // Maximum reasonable score (assuming 1 section per second, max 1 hour play)
-  const MAX_SCORE = 3600;
+  const MAX_SCORE = 69420;
   return score > 0 && score <= MAX_SCORE && Number.isInteger(score);
 }
 
